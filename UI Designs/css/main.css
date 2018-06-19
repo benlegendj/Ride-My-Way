@@ -1,16 +1,21 @@
 body {
     background: #2d343d;
+    height:100%;
   }
 
 /* .container {
     padding: 25px;
     position: fixed;
 } */
-
+p{
+  color: burlywood;
+  text-align: center;
+}
 .form{
   border-radius: 10px; 
   margin: 20px auto;
   width: 45%;
+  height: 80%;
   padding: 30px 25px;
   background: white; 
   border: 1px solid #c4c4c4; 
@@ -83,3 +88,24 @@ h1.form-title {
   background-color: #4CAF50;
   color: white;
 }
+
+
+.footer {
+  background-color: #333;
+  overflow: hidden;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
+
+
+.footer p{
+  /* float: left; */
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
