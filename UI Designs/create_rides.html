@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register a ride</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/rides.css">
+</head>
+<div class="topnav">
+    <a class="active" href="#">Sign up</a>
+    <a href="login.html">Log in</a>
+</div>
+<body>
+
+        <form>
+            <p>fill in to create a ride</p>
+            <fieldset>
+            <div>
+                <label for="starting point" class="mid">Starting point:</label>
+                <input type="text" name="starting point" id="name" value="" tabindex="1">
+            </div>
+          
+            <div>
+                <label for="Destination" class="mid">Destination:</label>
+                <input type="text" name="Destination" id="Destination" value="" tabindex="2">
+            </div>
+            <div>
+                <label for="Looking for?">Looking for?</label>
+            </div>
+        
+             <div>
+                 <label for="Driver">Driver</label>
+                 <input type="radio" name="option" id="driver" class="radio" tabindex="5">
+            </div>
+               
+            <div>
+                <label for="Passanger">Passanger</label>
+                <input type="radio" name="option" id="passanger" class="radio" tabindex="6">
+            </div>
+          
+            <div>
+                <label for="Pool type" class="mid">Pool type:</label>
+                <select name="Pool type" id="Pool type">
+                      <optgroup>
+                            <option value="Choice 1">Monthly</option>
+                        <option value="Choice 2">Weekly</option>
+                        <option value="Choice 3">One time</option>
+                </select>
+            </div>
+            <div>
+                    <label for="Visibility" class="mid">Visibility:</label>
+                    <select name="visibility" id="Visibility">
+                          <optgroup>
+                                <option value="Friends">Friends only</option>
+                            <option value="Anyone">Anyone</option>
+                    </select>
+                </div>
+            <div>
+                <label for="textarea">Additional infomation:</label>
+                <textarea cols="30" rows="10" name="additional info" id="additional info"></textarea>
+            </div>
+        
+            <div>
+                <input type="submit" value="Submit" class="submit">
+            </div>
+              
+            </fieldset>
+        
+        </form>
+</div>
+
+
+   
+
+
+    <div class="footer">
+
+        <p>&copy Ride-my-way 2018</p>
+    </div>
+
+</body>
+
+</html>
