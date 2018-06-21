@@ -1,12 +1,6 @@
 body {
-    background: #2d343d;
     height: 100%;
 }
-
-/* .container {
-    padding: 25px;
-    position: fixed;
-} */
 
 p {
     color: burlywood;
@@ -92,17 +86,72 @@ h1.form-title {
 .footer {
     background-color: #333;
     overflow: hidden;
-    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
 
 .footer p {
-    /* float: left; */
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 14px;
+}
+
+.search {
+    width: 100%;
+    position: relative
+}
+
+.searchTerm {
+    float: left;
+    width: 100%;
+    border: 3px solid #00B4CC;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+    position: absolute;
+    right: -50px;
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
