@@ -10,77 +10,68 @@
     <link rel="stylesheet" href="./css/rides.css">
 </head>
 <div class="topnav">
-    <a class="active" href="#">Sign up</a>
+    <a href="../index.html">Home</a>
+    <a href="sign_up.html">Sign up</a>
+    <a href="rides.html">Rides</a>
+    <a class="active" href="#">Create rides</a>
     <a href="login.html">Log in</a>
+    <a href="approve.html">Approve</a>
+    <a href="profile.html">Profile</a>
 </div>
 <body>
 
-        <form>
-            <p>fill in to create a ride</p>
-            <fieldset>
+    <form>
+        <p>fill in to create a ride</p>
+        <fieldset>
             <div>
                 <label for="starting point" class="mid">Starting point:</label>
                 <input type="text" name="starting point" id="name" value="" tabindex="1">
             </div>
-          
+
             <div>
                 <label for="Destination" class="mid">Destination:</label>
                 <input type="text" name="Destination" id="Destination" value="" tabindex="2">
             </div>
+
             <div>
-                <label for="Looking for?">Looking for?</label>
+                <label for="Date" class="mid">Date:</label>
+                <input type="date" name="Date" id="Date" value="" tabindex="2">
             </div>
-        
-             <div>
-                 <label for="Driver">Driver</label>
-                 <input type="radio" name="option" id="driver" class="radio" tabindex="5">
-            </div>
-               
+
             <div>
-                <label for="Passanger">Passanger</label>
-                <input type="radio" name="option" id="passanger" class="radio" tabindex="6">
+                <label for="Time" class="mid">Time:</label>
+                <input type="time" name="time" id="Time" value="" tabindex="2">
             </div>
-          
+
             <div>
                 <label for="Pool type" class="mid">Pool type:</label>
                 <select name="Pool type" id="Pool type">
-                      <optgroup>
-                            <option value="Choice 1">Monthly</option>
-                        <option value="Choice 2">Weekly</option>
-                        <option value="Choice 3">One time</option>
+                    <optgroup>
+                        <option value="Choice 1">One time</option>
+                        <option value="Choice 2">Daily</option>
                 </select>
             </div>
             <div>
-                    <label for="Visibility" class="mid">Visibility:</label>
-                    <select name="visibility" id="Visibility">
-                          <optgroup>
-                                <option value="Friends">Friends only</option>
-                            <option value="Anyone">Anyone</option>
-                    </select>
-                </div>
+                <label for="Visibility" class="mid">Visibility:</label>
+                <select name="visibility" id="Visibility">
+                    <optgroup>
+                        <option value="Friends">Friends only</option>
+                        <option value="Anyone">Anyone</option>
+                </select>
+            </div>
             <div>
                 <label for="textarea">Additional infomation:</label>
-                <textarea cols="30" rows="10" name="additional info" id="additional info"></textarea>
+                <textarea cols="20" rows="10" name="additional info" id="additional info"></textarea>
             </div>
-        
+
             <div>
                 <input type="submit" value="Submit" class="submit">
             </div>
-              
-            </fieldset>
-        
-        </form>
-</div>
 
+        </fieldset>
 
-   
-
-
-    <div class="footer">
-
-        <p>&copy Ride-my-way 2018</p>
+    </form>
     </div>
-
 </body>
 
 </html>
