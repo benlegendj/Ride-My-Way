@@ -5,6 +5,12 @@ body {
     font-family: 'PT Sans Caption', sans-serif;
     font-weight: 400;
 }
+.row {
+  height: 800px;
+  background-color: ghostwhite;
+  width: 80%;
+  margin-left: 10%;
+}
 
 form {
     border-top: 5px solid #01caa7;
@@ -76,7 +82,7 @@ form input.button {
 
 form textarea {
     width: 240px;
-    height: 200px;
+    height: 180px;
     padding: 10px;
     background: #d9dfde;
     border: 2px solid #fff;

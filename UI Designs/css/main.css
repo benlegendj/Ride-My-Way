@@ -90,7 +90,7 @@ h1.form-title {
 }
 
 .footer {
-    background-color: #333;
+    background-color: rgb(12, 12, 12);
     overflow: hidden;
     /* position: fixed; */
     bottom: 0;
@@ -105,4 +105,5 @@ h1.form-title {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 14px;
+    position: fixed;
 }
