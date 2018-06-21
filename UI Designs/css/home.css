@@ -1,12 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: sans-serif;
-}
-
 .wrapper {
     background: url('../img/cardi.jpg') no-repeat center;
     background-size: cover;
@@ -20,7 +11,7 @@ body {
     top: 30%;
     transform: translateY(-50%);
     text-transform: uppercase;
-    color: #fff;
+    color: #25dc47;
     letter-spacing: 2px;
 }
 

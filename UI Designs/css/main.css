@@ -3,13 +3,8 @@ body {
     height: 100%;
 }
 
-/* .container {
-    padding: 25px;
-    position: fixed;
-} */
-
 p {
-    color: burlywood;
+    color: #ffcc00;
     text-align: center;
 }
 
@@ -87,23 +82,4 @@ h1.form-title {
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
-}
-
-.footer {
-    background-color: rgb(12, 12, 12);
-    overflow: hidden;
-    /* position: fixed; */
-    bottom: 0;
-    width: 100%;
-}
-
-.footer p {
-    /* float: left; */
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 14px;
-    position: fixed;
 }
